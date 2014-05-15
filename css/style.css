@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header .container,
+.footer .container{
+	background-color: #000;
+	background-image: url('images/bg_teaser.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 900px;
+}
+
+.slogan a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.slogan a:hover {
+    text-decoration: underline;
+}
+
+
+.slogan {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+    margin-top: 4em;
+	margin-bottom: 0.5em;
+}
+
+.green_text {
+    color: #27bdad;
+}
+
+#oklogo {
+	min-height: 0;
+}
+
+#oklogo a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#oklogo a:hover {
+    text-decoration: underline;
+}
+
+#oklogo img {
+    margin-bottom: 20px;
+}
+
+#oklogo .oklogo_under_text {
+	background-image: url('images/bg_under_text.png');
+	background-repeat: repeat;
+	background-position: center center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+#hrlogo{
+	border-top: 2px solid #27bdad;
+	border-bottom: 2px solid #27bdad;
+	padding-top: 1px;
+}
+
+#subtitle-logo{
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 1em;
+	margin-bottom: 8em;
+}
+#oklogo_under_blank{
+	background-color: #80d8cf;
+	padding: 15px 0;
+}
+
+#call{
+	color: #616161;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 40px 0;
+}
+
+#topics{
+	font-size: 0.9em;
+	margin-bottom: 10em;
+}
+#topics .title{
+	font-size: 1.1em;
+	color: #1a988b;
+	font-weight: bold;
+}
+#topics .contents{
+	color: #8b8b8b;
+}
+
+.footer .container{
+	padding: 35px 0;
+	background-position: center -790px;
+	border-top: 8px solid #1a988b;
+}
+
+.footer .container a{
+	font-weight: bolder;
+}
+
+@media (min-width: 1201px) {
+	.container{
+		width: 80%;
+	}
+}
+@media (max-width: 1200px) {
+	.container{
+		width: 80%;
+	}
+}
+@media (max-width: 768px) {
+	.container{
+		width: 100%;
+	}
+	.slogan {
+		font-size: 2.2em;
+		margin-top: 2em;
+		margin-bottom: 0.2em;
+	}
+	#subtitle-logo{
+		font-size: 1.2em;
+		margin-bottom: 2em;
+	}
+	.header .container{
+		background-size: auto 480px;
+	}
+}
