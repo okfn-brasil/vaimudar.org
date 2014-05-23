@@ -28,7 +28,7 @@ body {
 
 .slogan a:hover {
     text-decoration: none;
-	color: #e1fffc;
+	color: #27bdad;
 }
 
 
@@ -45,8 +45,8 @@ body {
     color: #27bdad;
 }
 
-.slogan  a .green_text:hover{
-	color: #50d1c3;
+.slogan  a:hover .green_text{
+	color: #ffffff;
 }
 
 #oklogo {
