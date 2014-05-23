@@ -27,7 +27,8 @@ body {
 }
 
 .slogan a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+	color: #e1fffc;
 }
 
 
@@ -42,6 +43,10 @@ body {
 
 .green_text {
     color: #27bdad;
+}
+
+.slogan  a .green_text:hover{
+	color: #50d1c3;
 }
 
 #oklogo {
@@ -118,6 +123,11 @@ body {
 
 .footer .container a{
 	font-weight: bolder;
+	color: #fff;
+	text-decoration: none;
+}
+.footer .container a:hover{
+	color: #1ad5c3;
 }
 
 @media (min-width: 1201px) {
